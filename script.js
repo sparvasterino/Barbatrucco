@@ -1,4 +1,4 @@
-const addNewSite = function (event) {
+const aggiungiSito = function (event) {
 
   event.preventDefault();
   const url = $("#form-url").val();
@@ -7,17 +7,17 @@ const addNewSite = function (event) {
   const aElem = $("<a>").attr("href", url).text(title);
   const liElem = $("<li>").append(aElem);
   $("#lista").append(liElem);
-  console.log("inside addNewSite");
-  console.log(url);
-  console.log(title);
-  console.log(category);
+  console.log("URL: " + url);
+  console.log("Titolo: " + title);
+  console.log("Categoria:" + category);
+  console.log("--------------");
 
 }
 
 const init = function () {
 
-  $("#form-submit").on("click", addNewSite);
-  console.log("inside init");
+  $("#form-submit").on("click", aggiungiSito);
+
 
 }
 
