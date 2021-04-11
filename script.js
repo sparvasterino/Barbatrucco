@@ -1,9 +1,9 @@
 const aggiungiSito = function (event) {
 
   event.preventDefault();
-  const url = $("#form-url").val();
-  const title = $("#form-title").val();
-  const category = $("#form-category").val();
+  const url = $("#formUrl").val();
+  const title = $("#formTitle").val();
+  const category = $("#formCategory").val();
   const aElem = $("<a>").attr("href", url).text(title);
   const liElem = $("<li>").append(aElem);
   $("#lista").append(liElem);
@@ -16,7 +16,7 @@ const aggiungiSito = function (event) {
 
 const init = function () {
 
-  $("#form-submit").on("click", aggiungiSito);
+  $("#formSubmit").on("click", aggiungiSito);
 
 
 }

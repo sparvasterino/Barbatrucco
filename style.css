@@ -1,4 +1,8 @@
-input {
-  display: block;
-  margin-top: 10px;
+body { 
+  background: url(BackgroundImg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
