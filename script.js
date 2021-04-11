@@ -1,13 +1,13 @@
 const addNewSite = function (event) {
 
   event.preventDefault();
-  console.log("inside addNewSite");
   const url = $("#form-url").val();
   const title = $("#form-title").val();
   const category = $("#form-category").val();
   const aElem = $("<a>").attr("href", url).text(title);
   const liElem = $("<li>").append(aElem);
   $("#lista").append(liElem);
+  console.log("inside addNewSite");
   console.log(url);
   console.log(title);
   console.log(category);
