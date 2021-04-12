@@ -3,5 +3,5 @@
 
 <a href="https://replit.com/@sparvasterino/Barbatrucco#README.md" rel="nofollow">Link to repl.it</a>
 
-<a href="https://github.com/sparvasterino/Barbatrucco" rel="nofollow">Link to github.com</a>
+
 
